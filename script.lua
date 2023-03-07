@@ -8,4 +8,7 @@ elseif placeId == 4520749081 or placeId == 6381829480 or placeId == 5931540094 t
 elseif placeId == 9380307595 then
     --Pixel Piece
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/pp.lua"))()
+elseif placeId == 12192552089 then
+	--Fruit Warriors
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/fw.lua"))()
 end
