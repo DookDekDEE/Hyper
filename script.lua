@@ -11,4 +11,7 @@ elseif placeId == 6777872443 then
 elseif placeId == 12192552089 then
 	--Fruit Warriors
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/fw.lua"))()
+elseif placeId == 6918802270 then
+	--HAZE PIECE
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/hp.lua"))()
 end
