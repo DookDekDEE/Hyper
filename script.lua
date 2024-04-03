@@ -14,4 +14,7 @@ elseif placeId == 12192552089 then
 elseif placeId == 6918802270 or placeId == 14979402479 then
 	--HAZE PIECE
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/hp.lua"))()
+elseif placeId == 15049111150 then
+	--Second Piece
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/sp.lua"))()
 end
