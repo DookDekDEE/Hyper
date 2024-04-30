@@ -17,4 +17,7 @@ elseif placeId == 6918802270 or placeId == 14979402479 then
 elseif placeId == 15049111150 then
 	--Second Piece
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/sp.lua"))()
+elseif placeId == 9704927237 or placeId == 12940506339 then
+	--Anime Swith
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/as.lua"))()
 end
