@@ -1,8 +1,8 @@
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
 	--Blox Fruit
-	--loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/bf.lua"))()
-	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9b875e079c7a4e29acc2ff103454567f.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/bf.lua"))()
+	--loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9b875e079c7a4e29acc2ff103454567f.lua"))()
 elseif placeId == 4520749081 or placeId == 6381829480 or placeId == 5931540094 or placeId == 15759515082 then
 	--King Legacy
 	--loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/af1f18a5c81eb310b9d48415d795891d.lua"))()
