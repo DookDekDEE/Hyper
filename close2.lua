@@ -23,7 +23,7 @@ ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0, 0, 0, 74)
 ImageButton.Size = UDim2.new(0, 60, 0, 60)
-ImageButton.Image = randomImage
+ImageButton.Image = "rbxassetid://94258731129014"
 
 
 TextLabel.Parent = ImageButton
