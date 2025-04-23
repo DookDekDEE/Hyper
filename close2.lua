@@ -6,27 +6,34 @@ ScreenGui.Name = "HEEPERHUB"
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
+local images = {
+    "rbxassetid://85300003666114",
+    "rbxassetid://120747835513728",
+    "rbxassetid://107956958736844",
+    "rbxassetid://138011546424078",
+    "rbxassetid://94258731129014",
+    "rbxassetid://121641831379466",
+}
+
+local randomImage = images[math.random(1, #images)]
+
 ImageButton.Parent = ScreenGui
 ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0, 0, 0, 74)
-ImageButton.Size = UDim2.new(0, 43, 0, 43)
-ImageButton.Image = "rbxassetid://15481302234"
+ImageButton.Size = UDim2.new(0, 60, 0, 60)
+ImageButton.Image = randomImage
 
-ImageButton.MouseButton1Down:connect(function()
-	game:service('VirtualInputManager'):SendKeyEvent(true, "LeftControl", false, game)
-	game:service('VirtualInputManager'):SendKeyEvent(false, "LeftControl", false, game)
-end)
 
 TextLabel.Parent = ImageButton
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 43, 0, 43)
+TextLabel.Size = UDim2.new(0, 60, 0, 60)
 TextLabel.Font = Enum.Font.Highway
-TextLabel.Text = "GUI"
+TextLabel.Text = ""
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 TextLabel.TextTransparency = 0.510
@@ -36,6 +43,16 @@ local UserInputService = game:GetService("UserInputService")
 local dragging = false
 local dragStart = nil
 local startPos = nil
+
+ImageButton.MouseButton1Down:connect(function()
+	game:service('VirtualInputManager'):SendKeyEvent(true, "LeftControl", false, game)
+	game:service('VirtualInputManager'):SendKeyEvent(false, "LeftControl", false, game)
+    --[[if TextLabel.Text == "CLOSE" then
+        TextLabel.Text = "SHOW"
+    elseif TextLabel.Text == "SHOW" then
+        TextLabel.Text = "CLOSE"
+    end]]
+end)
 
 ImageButton.InputBegan:Connect(function(input)
     if input.UserInputType == Enum.UserInputType.MouseButton1 then
