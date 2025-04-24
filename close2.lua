@@ -22,7 +22,7 @@ ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0, 0, 0, 74)
-ImageButton.Size = UDim2.new(0, 60, 0, 60)
+ImageButton.Size = UDim2.new(0, 43, 0, 43)
 ImageButton.Image = "rbxassetid://15481302234"
 
 
@@ -31,7 +31,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 60, 0, 60)
+TextLabel.Size = UDim2.new(0, 43, 0, 43)
 TextLabel.Font = Enum.Font.Highway
 TextLabel.Text = "CLOSE"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
