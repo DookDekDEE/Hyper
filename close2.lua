@@ -33,7 +33,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0, 60, 0, 60)
 TextLabel.Font = Enum.Font.Highway
-TextLabel.Text = ""
+TextLabel.Text = "CLOSE"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 TextLabel.TextTransparency = 0.510
@@ -47,11 +47,11 @@ local startPos = nil
 ImageButton.MouseButton1Down:connect(function()
 	game:service('VirtualInputManager'):SendKeyEvent(true, "LeftControl", false, game)
 	game:service('VirtualInputManager'):SendKeyEvent(false, "LeftControl", false, game)
-    --[[if TextLabel.Text == "CLOSE" then
+    if TextLabel.Text == "CLOSE" then
         TextLabel.Text = "SHOW"
     elseif TextLabel.Text == "SHOW" then
         TextLabel.Text = "CLOSE"
-    end]]
+    end
 end)
 
 ImageButton.InputBegan:Connect(function(input)
