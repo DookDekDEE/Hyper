@@ -32,4 +32,6 @@ elseif placeId == 89438510123061 then
 	--loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8ca4ec399bb51f74879cbdef584641ce.lua"))()
 elseif placeId == 72829404259339 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/arx.lua"))()
+elseif placeId == 111989938562194 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/All-Script/main/brokenbrain.lua"))()
 end
