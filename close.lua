@@ -13,7 +13,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0, 0, 0, 74)
 ImageButton.Size = UDim2.new(0, 43, 0, 43)
 ImageButton.Transparency = 0.5
-ImageButton.Image = "rbxassetid://137836655195717"
+ImageButton.Image = "rbxassetid://8964489619"
 
 
 TextLabel.Parent = ImageButton
